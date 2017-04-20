@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+<!--该路由中定义的flsak-wtf表单使用flask-bootstrap渲染-->
+{% block title %}Flasky - Login{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+    <h1>Login</h1>
+</div>
+<div class="col-md-4">
+    <!--极简的渲染过程-->
+    {{ wtf.quick_form(form) }}
+    <br>
+    <p>New user?
+        <!--链接到注册界面-->
+        <a href="{{ url_for('auth.register') }}">
+            Click here to register
+        </a>
+    </p>
+</div>
+{% endblock %}
