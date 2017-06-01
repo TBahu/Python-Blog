@@ -11,8 +11,8 @@ class Config:
     MAIL_PORT = 465
     # MAIL_USE_TLS = True
     MAIL_USE_SSL = True
-    MAIL_USERNAME = '1076849402'  # 默认QQ号
-    MAIL_PASSWORD = 'bhxkfpiuuuckijfc'  # qq的是授权码
+    MAIL_USERNAME = '-------'  # 默认QQ号
+    MAIL_PASSWORD = '--------'  # qq的是授权码
     FLASKY_MAIL_SUBJECT_PREFIX = '[Flasky]'  # 发信主题
     FLASKY_MAIL_SENDER = 'Flasky Admin <1076849402@qq.com>'  # 发信人信息
     FLASKY_ADMIN = '1076849402@qq.com'  # 发信邮箱
